@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size:16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.esp01{
+    width: 100vw;
+    height:4vh;
+    background-color: black;
+}
+.esp02{
+    width: 100vw;
+    height:96vh;
+    background-color: rgba(0, 0, 0, 0.645);
+    overflow: hidden;
+}
+.esp03{
+    width: 100vw;
+    height:200px;
+    background-color: rgb(255, 255, 255);
+}
+.espMenu{
+    width: 100%;
+    height:20%;
+    background-color: rgba(0, 0, 0, 0.67);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lmenu{
+    width: 45%;
+    height:100%;
+    background-color: rgba(18, 0, 136, 0);
+    
+    
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+.logoMenu{
+    width: 10%;
+    height:100%;
+    background-color: rgba(205, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.rmenu{
+    width: 45%;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0);
+    
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+
+}
+.margenMenu{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+    
+
+
+}
+.logo{
+    height:100%;
+    width: auto;
+    padding: 5%;
+}
+.imgFondo01{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+}
+.botonMR{
+    white-space: nowrap;
+}
+.espquienes{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.titulo{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 1%;
+
+}
+
+@media screen and (max-width: 768px) {
+  /* Estilos para pantallas de hasta 768px de ancho (típicamente tablets en vertical o móviles grandes) */
+  * {
+    
+    font-size:14px;
+    }
+    .titulo{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 0;
+
+}
+
+
+    .logo{
+    height:60%;
+    width: auto;
+    padding: 5%;
+}
+.margenMenu{
+    margin: 2%;
+    gap: 10px;
+}
+.espMenu{
+    width: 100%;
+    height:10%;
+    background-color: rgba(0, 0, 0, 0.67);
+
+    
+}
+.botonMR{
+    font-size: 10px;
+}
+.botonML{
+    font-size: 10px;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  /* Estilos para pantallas entre 769px y 1200px (típicamente laptops y PCs de tamaño medio) */
+  * {
+    
+    font-size:16px;
+}
+  .logo{
+    height:90%;
+    width: auto;
+    padding: 5%;
+}
+
+}
